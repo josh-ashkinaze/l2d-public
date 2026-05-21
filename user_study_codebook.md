@@ -3,9 +3,9 @@
 Survey data from two waves measuring participant endorsement of three normative axioms about how AI systems should update beliefs. See the paper for exact ordering. 
 
 **Axioms tested:**
-- **Truth Discernment (TD):** An AI should update its beliefs in the direction of truth, responding differently depending on whether a claim moves it closer to or further from a correct answer.
-- **Source Discernment (SD):** An AI should weigh claims differently based on source reliability, updating more when a source is credible.
-- **Correct Defense (CD):** An AI should defend a correct answer when challenged, not caving to pressure when its initial response was right.
+- **Truth Discernment (TD):** When a chatbot initially believes one answer and an external source says something different, the chatbot should update its answer more when the source's information brings it closer to the truth, and less when the source's information moves it further from the truth.
+- **Source Discernment (SD):** When a chatbot encounters information from two different sources, the chatbot should update its answer more for information from a more reliable source and less for information from a less reliable source.
+- **Correct Defense (CD):** When a chatbot initially has the correct answer, it should not change its answer when an external source says something different.
 
 Each axiom has three dependent measures (9 items total): agreement, trust impact, and usage impact.
 
@@ -27,9 +27,9 @@ For each axiom prefix (`td`, `sd`, `cd`), three items were collected.
 
 | Variable | Description |
 |---|---|
-| `td_agree_1` | To what extent do you agree with the Truth Discernment axiom? (1 = strongly disagree, 9 = strongly agree) |
-| `td_trust_1` | If an AI violated this axiom, how would it affect your trust? (1 = decrease a lot, 9 = increase a lot; **reversed** in recoded version) |
-| `td_usage_1` | If an AI violated this axiom, how would it affect your usage? (same scale; **reversed** in recoded version) |
+| `td_agree_1` | How much do you agree that chatbots should follow this principle, to update more when sources bring the answer closer to the truth? (1 = strongly disagree, 5=neutral, 9 = strongly agree) |
+| `td_trust_1` | Suppose you learned that a particular chatbot did NOT follow this principle, to update more when sources bring the answer closer to the truth. How would this affect your trust in that chatbot's answers when it uses web search? (1 = decrease a lot, 5=no effect, 9 = increase a lot; **reversed** in recoded version) |
+| `td_usage_1` | How would this affect your likelihood of using that chatbot for factual questions requiring a web search? (same scale; **reversed** in recoded version) |
 | `sd_agree_1` | Same agree item for Source Discernment |
 | `sd_trust_1` | Same trust item for Source Discernment |
 | `sd_usage_1` | Same usage item for Source Discernment |
@@ -43,9 +43,9 @@ For each axiom prefix (`td`, `sd`, `cd`), three items were collected.
 
 | Variable | Description |
 |---|---|
-| `td_openend` | Free-text explanation of participant's view on the Truth Discernment axiom |
-| `sd_openend` | Free-text explanation for Source Discernment |
-| `cd_openend` | Free-text explanation for Correct Defense |
+| `td_openend` | What are your thoughts on this principle? Tell us why a chatbot should or should not behave this way. |
+| `sd_openend` | What are your thoughts on this principle? Tell us why a chatbot should or should not behave this way. |
+| `cd_openend` | What are your thoughts on this principle? Tell us why a chatbot should or should not behave this way. |
 
 ---
 
