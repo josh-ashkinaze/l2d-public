@@ -1,5 +1,22 @@
 # Learn2Discern (L2D)
 
+# Paper
+LLMs are increasingly used with external knowledge sources like the internet. Do they weigh information appropriately-updating more for reliable sources (source discernment) and more when claims bring priors closer to the truth (truth discernment)? We formalize this as information discernment and introduce Learn2Discern (L2D), an experimental framework and benchmark grounded in three normative axioms with interpretable metrics. To establish external validity, a pre-registered, quota-matched user study (n=299) confirms that real LLM users endorse all three axioms and report that violations reduce their trust and usage intent. Across 13 models and nearly 670K trials, we find consistent failures across both dimensions: models perform near chance on source and truth discernment, rely on source popularity twice as much as source reliability, and update roughly equally whether a claim improves or worsens their position relative to the ground truth. Models integrate external knowledge most effectively on datasets where their priors are already the most accurate. Newer and larger models improve truth discernment but not source discernment, a blind spot that model complexity does not address. We identify simple inference-time interventions that improve both forms of discernment. We release our dataset and survey as a testbed for a core alignment property that scales in importance as LLMs replace traditional search.
+
+
+# Cite
+
+```
+@misc{ashkinaze2026informationdiscernment,
+  title        = {Information Discernment in Large Language Models},
+  author       = {Ashkinaze, Joshua and Kurek, Laura and Faisal, Alina and Miao, Tongyuan and Joseph, Mariam and Budak, Ceren and Gilbert, Eric},
+  year         = {2026},
+  month        = {July},
+  doi          = {10.13140/RG.2.2.22199.28328/1},
+  url          = {https://www.researchgate.net/publication/408658513_Information_Discernment_in_Large_Language_Models}
+}
+```
+
 ---
 
 ## Downloads
