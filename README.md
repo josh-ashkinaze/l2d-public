@@ -18,6 +18,7 @@ LLMs are increasingly used with external knowledge sources like the internet. Do
   primaryClass  = {cs.AI},
   url           = {https://arxiv.org/abs/2607.19355}
 }
+```
 
 ---
 
