@@ -139,7 +139,7 @@ Used as covariates in OLS regressions. Reference categories for models are noted
 | Variable | Values | Description |
 |---|---|---|
 | `age_num` | numeric | `age` parsed to float |
-| `age_coarse` | 18–34 [ref], 35–55, 55+ | Age binned into three groups |
+| `age_coarse` | 18–34 [ref], 35–54, 55+ | Age binned into three groups |
 | `income_coarse` | 0–50k [ref], 50–100k, 100k+ | Income collapsed to three tiers |
 | `edu_coarse` | SomeCollegeOrLess [ref], Bachelors, Postgrad | Education collapsed to three levels |
 | `sex_coarse` | Woman [ref], Male, Non-binary | Gender recoded from `gender` |
