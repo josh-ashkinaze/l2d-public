@@ -37,7 +37,7 @@ De-identified responses from our pre-registered, quota-matched user study (*n* =
 
 | File | Download |
 |---|---|
-| `info_discern_user_study.csv` | [Download](https://www.dropbox.com/scl/fi/53f837t3wl9aniqm4zg9i/info_discern_user_study.csv?rlkey=olwbzdq3wq26dbtk75g00qkpx&st=ns5v5m97&dl=0) |
+| `info_discern_user_study.csv` | [Download](https://www.dropbox.com/scl/fi/eh6f9zjquyke8tetu5bpa/info_discern_user_study.csv?rlkey=q9zk27vhb89bjt4gbgt47gfdr&st=xdod012x&dl=1) |
 
 ---
 
